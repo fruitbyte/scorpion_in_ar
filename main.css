@@ -1,0 +1,67 @@
+html, body {
+    height: 100%
+}
+
+#scene1 {
+    height: 80%;
+    width: 100%;
+}
+
+#scene2 {
+    height: 80%;
+    width: 100%;
+}
+
+
+model-viewer:focus {
+    outline: none;
+  }
+
+model-viewer {
+    width: auto;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Special Elite', cursive;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+#text1 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5pt;
+}
+
+#text2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5pt;
+}
+
+#parent1 {
+    height: 50%;
+    width: 100%;
+}
+
+#parent2 {
+    height: 50%;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) and (orientation: landscape) {
+    #parent1 {
+        height: 100%;
+        width: 100%;
+    }
+
+    #parent2 {
+        height: 100%;
+        width: 100%;
+    }
+}
